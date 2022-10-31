@@ -1,0 +1,5 @@
+const path = require('path')
+const pathStr = path.join('/a', '/b/c', '../', 'e')
+console.log(pathStr)
+const ps = path.join(__dirname + '/file/1.text')
+console.log(ps)
