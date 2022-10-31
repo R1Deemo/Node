@@ -6,7 +6,6 @@ server.on('request', (req, res) => {
     const method = req.method
     const str = `your request is ${url}`
     console.log(str)
-        //向客户端响应数据
     res.end(str)
 
 })
