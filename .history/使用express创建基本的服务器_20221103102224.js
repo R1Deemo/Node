@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 })
 
 //此处的:id是一个动态的参数
-app.get('/user/:id', (req, res) => {
+app.get('/user/:iddsf', (req, res) => {
     // req.params是动态匹配到的url参数，默认也是一个空对象
     console.log(req.params)
     res.send(req.params)
